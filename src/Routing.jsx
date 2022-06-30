@@ -1,5 +1,5 @@
 import React from "react";
-import {Route, Routes} from "react-router";
+import {Route, Router, Routes} from "react-router";
 import App from "./App";
 import {MainClassComponent} from "./class-components/MainClassComponent";
 import {MainHooksComponent} from "./hooks-components/MainHooksComponent";
@@ -11,7 +11,7 @@ export class AppMainRouting extends React.Component {
     render() {
         return (
             <>
-                <BrowserRouter>
+                <Router>
 
                     <Routes>
                         <Route path="/" element={<App/>}/>
@@ -19,7 +19,7 @@ export class AppMainRouting extends React.Component {
                         <Route path="hooks" element={<MainHooksComponent/>}/>
                     </Routes>
 
-                </BrowserRouter>
+                </Router>
             </>
         )
     }
