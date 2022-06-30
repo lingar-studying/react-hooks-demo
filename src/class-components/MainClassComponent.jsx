@@ -6,6 +6,8 @@ export class MainClassComponent extends React.Component{
         return(
             <div>
                 <h1>Main Class Components</h1>
+
+
             </div>
         )
     }
