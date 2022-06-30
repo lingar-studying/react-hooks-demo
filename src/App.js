@@ -18,6 +18,10 @@ function App() {
           Learn React
         </a>
       </header>
+
+      <main>
+        <h1>React App.js</h1>
+      </main>
     </div>
   );
 }
