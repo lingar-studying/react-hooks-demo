@@ -11,17 +11,14 @@ export class AppMainRouting extends React.Component {
     render() {
         return (
             <>
-                <Router>
-
+                <BrowserRouter>
                     <Routes>
-                        <Route path="/" element={<App/>}>
-                            <Route path="classes" element={<MainClassComponent/>}/>
-                            <Route path="hooks" element={<MainHooksComponent/>}/>
+                        <Route path="/" element={<App />}>
+                            <Route path="classes" element={<MainClassComponent />} />
+                            <Route path="hooks" element={<MainHooksComponent />} />
                         </Route>
-
                     </Routes>
-
-                </Router>
+                </BrowserRouter>
             </>
         )
     }

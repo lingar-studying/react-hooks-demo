@@ -25,12 +25,15 @@ function App() {
             </header>
 
             <main>
-                    {/*<AppMainRouting/>*/}
-                    {/*According to that, it supposed to work https://reactrouter.com/docs/en/v6/getting-started/tutorial#nested-routes*/}
-                    <h1>React App.js</h1>
-                    {/*TODO - make the routing from here not on all page. */}
-                    <h3><Link to="/classes">Classes</Link> </h3>
-                    <h3><Link to="/hooks">Hooks</Link></h3>
+                {/*<AppMainRouting/>*/}
+                {/*According to that, it supposed to work https://reactrouter.com/docs/en/v6/getting-started/tutorial#nested-routes*/}
+
+                <h1>React App.js</h1>
+                {/*TODO - make the routing from here not on all page. */}
+                <h3><Link to="/">Home</Link></h3>
+
+                <h3><Link to="/classes">Classes</Link></h3>
+                <h3><Link to="/hooks">Hooks</Link></h3>
                 <Outlet/>
 
                 {/*<MainClassComponent/>*/}

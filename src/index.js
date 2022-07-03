@@ -2,18 +2,22 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import {BrowserRouter} from "react-router-dom";
-import {AppMainRouting} from "./Routing";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
 import App from "./App";
+import {MainClassComponent} from "./class-components/MainClassComponent";
+import {MainHooksComponent} from "./hooks-components/MainHooksComponent";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
         <BrowserRouter>
-            <AppMainRouting/>
-
+            <Routes>
+                <Route path="/" element={<App />}>
+                    <Route path="classes" element={<MainClassComponent />} />
+                    <Route path="hooks" element={<MainHooksComponent />} />
+                </Route>
+            </Routes>
         </BrowserRouter>
-        <App/>
     </React.StrictMode>
 );
 
