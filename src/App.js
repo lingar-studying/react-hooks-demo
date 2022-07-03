@@ -5,6 +5,7 @@ import {BrowserRouter, Link} from "react-router-dom";
 import {AppMainRouting} from "./Routing";
 
 //https://reactjs.org/docs/hooks-intro.html
+//Routing - react-router 6 - https://reactrouter.com/docs/en/v6/getting-started/tutorial
 function App() {
     return (
         <div className="App">
