@@ -3,6 +3,7 @@ import './App.css';
 import React from "react";
 import {BrowserRouter, Link} from "react-router-dom";
 import {AppMainRouting} from "./Routing";
+import {Outlet} from "react-router";
 
 //https://reactjs.org/docs/hooks-intro.html
 function App() {
@@ -24,11 +25,12 @@ function App() {
             </header>
 
             <main>
-                    <AppMainRouting/>
+                    {/*<AppMainRouting/>*/}
                     <h1>React App.js</h1>
                     {/*TODO - make the routing from here not on all page. */}
                     <h3><Link to="/classes">Classes</Link> </h3>
                     <h3><Link to="/hooks">Hooks</Link></h3>
+                <Outlet/>
 
                 {/*<MainClassComponent/>*/}
                 {/*<MainHooksComponent/>*/}
