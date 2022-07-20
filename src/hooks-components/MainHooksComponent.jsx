@@ -2,7 +2,11 @@
 
 import {Link} from "react-router-dom";
 import React, {useEffect} from "react";
-import {CounterHook, DemoUseEffectLifeCycles} from "./ManyHooksComponents";
+import {
+    CounterHook,
+    DemoUseEffectLifeCycles,
+    ShowUseNumPow
+} from "./ManyHooksComponents";
 
 export function MainHooksComponent(){//mainHooksComponent - won't work
 
@@ -17,6 +21,7 @@ export function MainHooksComponent(){//mainHooksComponent - won't work
 
             <CounterHook/>
             <DemoUseEffectLifeCycles/>
+            <ShowUseNumPow/>
         </div>
     );
 }
