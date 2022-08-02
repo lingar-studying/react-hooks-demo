@@ -104,27 +104,44 @@ export const ShowUseNumPow = () => {
     return (
         <div>
             <h3>Here will be example for custom hook</h3>
+            <p>Custom hook, is saying that the values of this state came from
+                other places,
+                and don't handled at this component. <br/>
+                With that thing - you can easily create a common behavior for
+                component, similar to services.
+                <br/>
 
+                For example, you can define a common getSomeData functions, and
+                assign it to states, where it's needed.
+                <br/>
+                In this function, you can see how we get power function from the
+                custom hook.
+                It is used in 2 different components.
+
+            </p>
             <input type="number" onChange={(ev) => {
 
                 setNum(+ev.target.value);
             }
-            }/>
+            }
+
+                   value={num}/>
+            <p>The power is: {pow}</p>
 
             <br/>Input 2 (different)<br/>
             <input type="number" onChange={(ev) => {
 
                 setNum2(+ev.target.value);
             }
-            }/>
-            <p>The power is: {pow}</p>
+            } value={num2}/>
             <p>The power2 is: {pow2}</p>
 
             <p>You can see that:
                 <br/>
                 1- U must write the hook with use prefix
                 <br/>
-                2 - U can use the useState inside the hooks. In classes how you would do it? Let's try to do it.
+                2 - U can use the useState inside the hooks. In classes how you
+                would do it? Let's try to do it.
                 <br/>
                 3- remove the unnecessary code.
             </p>
