@@ -6,6 +6,7 @@ import {BrowserRouter, Route, Routes} from "react-router-dom";
 import App from "./App";
 import {MainClassComponent} from "./class-components/MainClassComponent";
 import {MainHooksComponent} from "./hooks-components/MainHooksComponent";
+import {MainDraft} from "./draft-area/MainDraft";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,6 +18,8 @@ root.render(
                     <Route path="/" element={<App/>}>
                         <Route path="classes" element={<MainClassComponent/>}/>
                         <Route path="hooks" element={<MainHooksComponent/>}/>
+                        <Route path="drafts" element={<MainDraft />} />
+
                     </Route>
                 </Routes>
             </BrowserRouter>

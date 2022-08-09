@@ -44,3 +44,29 @@ div {
   border: 2px solid purple;
   border-radius: 5px ;
 }
+.dana-yad-area{
+  font-family: dana yad;
+  direction: rtl;
+  text-align: right;
+}
+/**
+https://fonts.google.com/specimen/Amatic+SC?preview.text=%D7%9C%D7%95%D7%97%20%D7%90%D7%99%D7%A8%D7%95%D7%A2%D7%99%20%D7%94%D7%99%D7%9B%D7%A8%D7%95%D7%99%D7%95%D7%AA%20-%20%D7%91%D7%A8%D7%95%D7%97%20%D7%98%D7%95%D7%91%D7%94&preview.text_type=custom#standard-styles
+*/
+.amastic-sc-area{
+  /*font-family: amastic-sc;*/
+  font-family: 'Amatic SC', cursive;
+  /*font-weight: bold;*/
+  /*font-family: 'Open Sans', sans-serif;*/
+  direction: rtl;
+  text-align: right;
+  font-size: 50px;
+}
+
+.tachles-area{
+  font-family: 'tachles';
+  /*font-weight: bold;*/
+  /*font-family: 'Open Sans', sans-serif;*/
+  direction: rtl;
+  text-align: right;
+  /*font-size: 50px;*/
+}

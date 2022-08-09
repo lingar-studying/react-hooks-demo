@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+// import './try.css';
 import React from "react";
-import {BrowserRouter, Link} from "react-router-dom";
-import {AppMainRouting} from "./Routing";
+import {Link} from "react-router-dom";
 import {Outlet} from "react-router";
 
 //https://reactjs.org/docs/hooks-intro.html
@@ -35,6 +35,8 @@ function App() {
 
                 <h3><Link to="/classes">Classes</Link></h3>
                 <h3><Link to="/hooks">Hooks</Link></h3>
+                <h3><Link to="/drafts">Drafts</Link></h3>
+
                 <Outlet/>
 
                 {/*<MainClassComponent/>*/}

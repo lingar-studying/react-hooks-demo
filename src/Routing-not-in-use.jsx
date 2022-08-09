@@ -4,6 +4,7 @@ import App from "./App";
 import {MainClassComponent} from "./class-components/MainClassComponent";
 import {MainHooksComponent} from "./hooks-components/MainHooksComponent";
 import {BrowserRouter} from "react-router-dom";
+import {MainDraft} from "./draft-area/MainDraft";
 
 export class AppMainRouting extends React.Component {
 
@@ -16,6 +17,8 @@ export class AppMainRouting extends React.Component {
                         <Route path="/" element={<App />}>
                             <Route path="classes" element={<MainClassComponent />} />
                             <Route path="hooks" element={<MainHooksComponent />} />
+                            <Route path="drafts" element={<MainDraft />} />
+
                         </Route>
                     </Routes>
                 </BrowserRouter>

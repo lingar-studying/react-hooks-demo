@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'os_tachlesbold';
+    src: url('https://ofirshavit.com/wp-content/uploads/myfonts/os_tachles-bold-WEB.woff2') format('woff2'),
+    url('https://ofirshavit.com/wp-content/uploads/myfonts/os_tachles-bold-WEB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'os_tachlesbook';
+    src: url('https://ofirshavit.com/wp-content/uploads/myfonts/os_tachles-book-WEB.woff2') format('woff2'),
+    url('https://ofirshavit.com/wp-content/uploads/myfonts/os_tachles-book-WEB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'os_tachlesextra_bold';
+    src: url('https://ofirshavit.com/wp-content/uploads/myfonts/os_tachles-extrabold-WEB.woff2') format('woff2'),
+    url('https://ofirshavit.com/wp-content/uploads/myfonts/os_tachles-extrabold-WEB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'os_tachlesheavy';
+    src: url('https://ofirshavit.com/wp-content/uploads/myfonts/os_tachles-heavy-WEB.woff2') format('woff2'),
+    url('https://ofirshavit.com/wp-content/uploads/myfonts/os_tachles-heavy-WEB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'os_tachleslight';
+    src: url('https://ofirshavit.com/wp-content/uploads/myfonts/os_tachles-light-WEB.woff2') format('woff2'),
+    url('https://ofirshavit.com/wp-content/uploads/myfonts/os_tachles-light-WEB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'os_tachlesnormal';
+    src: url('/wp-content/uploads/myfonts/os_tachles-normal-WEB.woff2') format('woff2'),
+    url('/wp-content/uploads/myfonts/os_tachles-normal-WEB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'os_tachlessemibold';
+    src: url('https://ofirshavit.com/wp-content/uploads/myfonts/os_tachles-semibold-WEB.woff2') format('woff2'),
+    url('https://ofirshavit.com/wp-content/uploads/myfonts/os_tachles-semibold-WEB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.tachles1 {
+    font-family: 'os_tachleslight', sans-serif !important;
+    font-feature-settings: "kern", "liga";
+}
+
+.tachles2 {
+    font-family: 'os_tachlesbook', sans-serif !important;
+    font-feature-settings: "kern", "liga";
+}
+
+.tachles3, .tachles3 h5 {
+    font-family: 'os_tachlesnormal', sans-serif !important;
+    font-feature-settings: "kern", "liga";
+}
+
+.tachles4 {
+    font-family: 'os_tachlessemibold', sans-serif !important;
+    font-feature-settings: "kern", "liga";
+}
+
+.tachles5 {
+    font-family: 'os_tachlesbold', sans-serif !important;
+    font-feature-settings: "kern", "liga";
+}
+
+.tachles6 {
+    font-family: 'os_tachlesextra_bold', sans-serif !important;
+    font-feature-settings: "kern", "liga";
+}
+
+.tachles7 {
+    font-family: 'os_tachlesheavy', sans-serif !important;
+    font-feature-settings: "kern", "liga";
+}
